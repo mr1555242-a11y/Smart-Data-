@@ -1,5 +1,6 @@
 """
-Name: 05_ innovation_thought_engine.py
+Name: 05_ 
+_innovation_power.py
 Scope: Core innovative capabilities of the Smart-Data architecture
 """
 
