@@ -1,4 +1,8 @@
-# Smart-Data: Edge-Oriented Data Synchronization & Caching Prototype for UGREEN AI NAS
+## Codebase Structure & Evaluation Guide
+
+- **Primary Executable Engine (`technical_sync_engine.py`):** Contains the core `SmartDataSynchronizer` implementation, including SHA-256 payload deduplication, logical Vector Clocks, causal conflict detection and merging, local caching (`get_record`), state/log export (`export_state`), and the verification batch (`run_verification_batch`). Reviewers who want to run and test the actual synchronization and caching logic should start here.
+- **Structured Engineering Modules (`stages_actions_and_tools.py`, `challenges_and_resolutions.py`, `present_big_role.py`, `future_massive_role.py`, `innovation_power.py`):** Organize the project's development stages, challenges and resolutions, present and future impact roles, and innovation pillars as structured Python data models rather than separate synchronization engines.
+  # Smart-Data: Edge-Oriented Data Synchronization & Caching Prototype for UGREEN AI NAS
 
 ## Executive Summary & Core Vision
 
